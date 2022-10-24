@@ -38,8 +38,11 @@ public class GravityCalculator {
     public void main() {
         Scanner scn = new Scanner(System.in);
 
+        System.out.print("Enter falling time: ");
         setFallingTime(scn.nextLine());
+        System.out.print("Enter initial position: ");
         setInitialPosition(scn.nextLine());
+        System.out.print("Enter initial velocity: ");
         setInitialVelocity(scn.nextLine());
 
         findPosition();
