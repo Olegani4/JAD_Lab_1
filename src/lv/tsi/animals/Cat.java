@@ -1,6 +1,5 @@
 package lv.tsi.animals;
 
-//public class Cat implements Animal {
 public class Cat implements Animal, Domestic {
 
     @Override

@@ -1,6 +1,5 @@
 package lv.tsi.animals;
 
-//public class Fox implements Animal {
 public class Fox implements Animal, Wild {
 
     @Override
